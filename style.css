@@ -1,0 +1,607 @@
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.fixed{
+  position: fixed !important;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.auto{
+	margin: auto;
+}
+.center{
+	text-align: center;
+}
+.open_sans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/********************** HEADER *************************/
+.header_contact{
+  background:url('../images/contact.jpg');
+  background-size: cover;
+  height:100%;
+  width: 100%;
+  background-position: center;
+  position:fixed;
+  z-index:1;
+}
+.header_homepage{
+	background:url('../images/stock-photo-surveillance-in-the-living-room2.jpg');
+	background-size: cover;
+	height:500px;
+	width: 100%;
+	position:relative;
+}
+.logo{
+	margin-top:40px;
+	width: 100%;
+}
+/*MENU*/
+.nav_menu ul{
+	display: flex;
+	margin-top:50px;
+}
+.nav_menu ul li{
+	list-style: none;
+	margin:1em;
+	flex-grow:1;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:12px;
+}
+.nav_menu ul li a{
+	display: block;
+	color:#333333;
+	letter-spacing:0.5px;
+	font-weight:600;
+}
+.homepage_menu{
+	display: block;
+}
+.homepage_menu li a{
+	color: white !important;
+}
+.menu_icon{
+	position:absolute;
+	right:30px;
+	top:80px;
+	font-size:32px !important;
+	color:white;
+	cursor:pointer;
+	background: transparent;
+	border:none;
+}
+.menu_icon2{
+	color:#333 !important;
+}
+.company_nav:after {
+    content: "";
+    background: url("../images/icones/icon_company.png") no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.solutions_nav:after{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_solutions.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.skills_nav:after{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_skills.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.contact_nav:after{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_contact.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.company_nav2:before {
+    content: "";
+    display: block;
+    background: url("../images/icones/icon_company2.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.solutions_nav2:before{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_solutions2.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.skills_nav2:before{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_skills2.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.contact_nav2:before{
+	content: "";
+    display: block;
+    background: url("../images/icones/icon_contact2.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin:2px auto;
+}
+.sentence_header{
+	bottom:20%;
+	right:15%;
+	color:white;
+	margin:0;
+}
+/************************ SECTION 2 ******************************/
+
+.section2{
+	width: 100%;
+	background: white;
+}
+.services{
+	margin:30px 0 70px 0;
+}
+.services h2{
+	color:#333399;
+}
+.services p{
+	color:#696f7c;
+}
+.services p:last-child{
+	color:#333;
+}
+.services div{
+	text-align: center;
+	margin:30px 0px 0px 0px;
+}
+.services div a{
+  border:1px solid #333399;
+	background: #333399;
+  color: white;
+  padding:8px 37px;
+  border-radius: 17px;
+  transition:0.4s all ease-in-out;
+  -moz-transition:0.4s all ease-in-out;
+  -webkit-transition:0.4s all ease-in-out;
+}
+.services div a:hover{
+  text-decoration: none;
+  background: transparent;
+  color:#333399;
+}
+/****************** CONTENT COMPANY *******************/
+.content_company{
+	background:#232831;
+	padding:70px 0px;
+}
+.content_company2{
+	padding:70px 0;
+}
+.image_company img{
+	width:100%;
+	margin-top:30px;
+}
+.description_company2{
+	color:#333;
+	line-height:150%;
+}
+.description_company{
+	color:white;
+	line-height:150%;
+	padding-top:30px;
+}
+.description_company h2{
+	margin: 0;
+	padding: 0;
+	font-weight:lighter;
+}
+.description_company p{
+	margin:10px 0;
+}
+.description_company div{
+  margin-top:40px;
+}
+.description_company div a{
+  background:white;
+  color:#232831;
+  border: 1px solid white;
+  padding:8px 37px;
+  border-radius:15px;
+  transition:0.4s all ease-in-out;
+  -webkit-transition:0.4s all ease-in-out;
+  -moz-transition:0.4s all ease-in-out;
+}
+.description_company div a:hover{
+  background: transparent;
+  color:white;
+  text-decoration: none;
+}
+.icon_white{
+	position: absolute;
+	top:0px;
+	left:48%;
+}
+/***************** CONTENT APPLICATION *****************/
+.content_application{
+	background:#333399;
+	color: white;
+	height:400px;
+}
+.content_application img{
+	position: absolute;
+	top:-80px;
+	right:50px;
+	width:500px;
+}
+.description_application{
+	width:50%;
+    position: relative;
+    top: 40px;
+}
+.description_application p{
+	margin-top:20px;
+}
+.description_application a{
+	background:white;
+	color:#333399;
+	padding:10px 37px;
+	border-radius: 24px;
+    margin:15px 0px;
+    display: inline-block;
+}
+/******************* CONTENT PARTNERS *******************/
+.content_partners{
+	background:white;
+	padding-top:200px;
+}
+.content_partners h2{
+	font-weight:300;
+	text-transform: uppercase;
+}
+.partners_col div{
+	margin:20px 0px;
+}
+
+/*********** PAGE COMPETENCES **********************/
+.section-skill{
+	background:whitesmoke;
+}
+.banner-section{
+	width: 100%;
+	height: 350px;
+	margin-top:50px;
+}
+.banner-section-skill{
+	background:url('../images/video_banner.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.desc_section{
+	font-size:30px;
+	font-weight:800;
+	text-transform:uppercase;
+	color:white;
+	margin:0;
+	padding:132px 0;
+}
+.content_skill{
+	padding:50px 25px;
+	border-bottom:1px solid #28348d;
+	color:#333;
+}
+.content_skill h2{
+	margin:0;
+	color:#28348d;
+}
+.content_skill h2 a{
+	color:#28348d;
+}
+.content_skill h2 a:hover{
+	text-decoration: none;
+}
+.content_skill img{
+	width: 100%;
+}
+.content_skill ul{
+	margin:10px 0;
+}
+.button_skill{
+	border:1px solid rgba(41,52,141,1);
+	background: rgba(41,52,141,1);
+	display: inline-block;
+	padding:10px 15px;
+	cursor:pointer;
+	border-radius: 15px;
+	margin-top:10px;
+	transition:0.5s ease-in-out;
+	-webkit-transition:0.5s ease-in-out;
+	-moz-transition:0.5s ease-in-out;
+}
+.button_skill:hover{
+	background:white;
+}
+.button_skill:hover a{
+	color:#28348d;
+}
+.button_skill a{
+	color:white;
+}
+.button_skill a:hover{
+	text-decoration: none;
+}
+.skill_tab:hover{
+	color:#28348d;
+}
+/************** PAGE SKILLS *********************/
+.bck-section{
+}
+.bck-intrusion-alarme{
+	background:url('../images/savoir-faire/alarme-intrusion.jpg')no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}
+.tab-content-skill{
+	padding:50px 0;
+}
+.tab-content-skill ul{
+	display: flex;
+	margin:0;
+}
+.tab-content-skill ul li{
+	flex-grow:1;
+	text-align:center;
+	list-style: none;
+	margin:0 10px;
+	color: white;
+}
+.active_skill{
+	background:white;
+}
+.active_skill a{
+  color:#28348d !important; 
+}
+.bck-section-skill{
+	position:relative;
+}
+.bck-section-skill h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size:50px;
+	font-weight:800;
+	color:white;
+	padding-top:30px;
+    text-shadow:2px 2px 4px #333;
+    margin:0px;
+}
+/***** PAGE CONTACT *****/
+.content_contact{
+  color: white;
+  margin-top:90px;
+
+}
+.content_contact h1{
+  text-align: center;
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:50px;
+  margin-bottom:90px;
+}
+.geolocalisation a{
+  display: block;
+  text-align: center;
+  color: white;
+}
+.icon-geoloc{
+  font-size:50px;
+  display: block;
+  text-align: center;
+  margin-bottom:40px;
+}
+.geolocalisation p{
+  width:80%;
+  font-weight:600;
+  text-align: center;
+  margin:auto;
+}
+.geolocalisation span{
+  display: block;
+  text-align: center;
+}
+#map{
+  z-index: 1;
+  margin-top: 45%;
+  height:500px;
+  width: 100%;
+}
+/***** BUTTON 3D TEST ********/
+.buttons {
+  display: flex;
+}
+  .buttons a {
+    -webkit-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -moz-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -ms-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -o-animation: bounceInDown 900ms 200ms ease-in-out both;
+    animation: bounceInDown 900ms 200ms ease-in-out both;
+	text-decoration: none;
+    z-index: 990;
+    color: white;
+    flex-grow:1;
+    padding:10px 15px;
+    text-align:center;
+    }
+    .buttons a:not(.active) {
+      -webkit-box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      -moz-box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #28348d), color-stop(100%, #ffffff));
+      background-image: -webkit-linear-gradient(#28348d, #28348d);
+      background-image: -moz-linear-gradient(#28348d, #28348d);
+      background-image: -o-linear-gradient(#28348d, #28348d);
+      background-image: linear-gradient(#28348d, #28348d);
+      font-weight: lighter;
+      }
+      .buttons a:not(.active):hover, .buttons a:not(.active):focus {
+        -webkit-transition: all ease-in-out 200ms linear;
+        -moz-transition: all ease-in-out 200ms linear;
+        -o-transition: all ease-in-out 200ms linear;
+        transition:all ease-in-out  200ms linear;
+        -webkit-transition: text-shadow 500ms linear;
+        -moz-transition: text-shadow 500ms linear;
+        -o-transition: text-shadow 500ms linear;
+        transition: text-shadow 500ms linear;
+        text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c; }
+      .buttons a:not(.active):active {
+        color: #e4e3ce !important; }
+    .buttons a.active, .buttons a:active {
+      -webkit-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      -moz-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+      background-image: -webkit-linear-gradient(#ffffff, #ffffff);
+      background-image: -moz-linear-gradient(#ffffff, #ffffff);
+      background-image: -o-linear-gradient(#ffffff, #ffffff);
+      background-image: linear-gradient(#ffffff, #ffffff);
+      color: black;
+      font-weight: lighter;
+      }
+      .buttons a.active:before, .buttons a:active:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 36px;
+        top: 1px;
+        left: -2px;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(91, 35, 105, 0)), color-stop(41%, #5b2369), color-stop(59%, #5b2369), color-stop(100%, rgba(91, 35, 105, 0)));
+        background-image: -webkit-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -moz-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -o-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        -webkit-box-shadow: -2px 0 6px 0 #5b2369;
+        -moz-box-shadow: -2px 0 6px 0 #5b2369;
+        box-shadow: -2px 0 6px 0 #5b2369; }
+      .buttons a.active:after, .buttons a:active:after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 36px;
+        top: 1px;
+        right: -2px;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(91, 35, 105, 0)), color-stop(41%, #5b2369), color-stop(59%, #5b2369), color-stop(100%, rgba(91, 35, 105, 0)));
+        background-image: -webkit-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -moz-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -o-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        -webkit-box-shadow: 2px 0 6px 0 #5b2369;
+        -moz-box-shadow: 2px 0 6px 0 #5b2369;
+        box-shadow: 2px 0 6px 0 #5b2369; }
+    .buttons a.active {
+      z-index: 1000; }
+    .buttons a:active {
+      z-index: 999; }
+    .buttons a:last-of-type {
+      -webkit-border-radius: 0 7px 7px 0;
+      -moz-border-radius: 0 7px 7px 0;
+      -ms-border-radius: 0 7px 7px 0;
+      -o-border-radius: 0 7px 7px 0;
+      border-radius: 0 7px 7px 0; }
+    .buttons a:first-of-type {
+      -webkit-border-radius: 7px 0 0 7px;
+      -moz-border-radius: 7px 0 0 7px;
+      -ms-border-radius: 7px 0 0 7px;
+      -o-border-radius: 7px 0 0 7px;
+      border-radius: 7px 0 0 7px;
+      left: 0; }
+    .buttons a:nth-of-type(2) {
+      left: 51px; }
+    .buttons a:nth-of-type(3) {
+      left: 102px; }
+    .buttons a:nth-of-type(4) {
+      left: 153px; }
+    .buttons a:nth-of-type(5) {
+      left: 204px; }
+    .buttons a:nth-of-type(6) {
+      left: 255px; }
+    .buttons a:nth-of-type(7) {
+      left: 306px; }
+    .buttons a:nth-of-type(8) {
+      left: 357px; }
+    .buttons a i:before {
+      margin-left: 2px;
+      font-size: 22px; }
+    .buttons a i.icon-bar-chart:before {
+      font-size: 20px;
+      margin-top: 0px; }
+    .buttons a i.icon-sync:before {
+      font-size: 20px;
+      margin-left: 3px;
+      margin-top: 1px; }
+    .buttons a i.icon-download:before {
+      font-size: 19px;
+      margin-top: 1px;
+      margin-left: 4px; }
+
+
+/* peripherial stuff: text and body */
+
+
+/**************** MEDIA QUERIES *******************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media(max-width:400px){
+.sentence_header{
+    color: white;
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width:768px) { 
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (max-width:992px) { 
+	.menu_icon{
+		top:50px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width:1200px) { 
+	.menu_icon{
+		display:block;
+	}
+	.homepage_menu{
+		display: none;
+	}
+}
+
+
+
+
+
